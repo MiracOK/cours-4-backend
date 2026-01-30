@@ -1,4 +1,6 @@
 {
+    "name": "miracok/cours-4-backend",
+    "description": "A backend for course 4",
     "type": "project",
     "license": "proprietary",
     "minimum-stability": "stable",
