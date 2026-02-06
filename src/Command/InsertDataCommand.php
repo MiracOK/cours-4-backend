@@ -5,7 +5,6 @@ namespace App\Command;
 use App\Entity\Batiment;
 use App\Entity\Personne;
 use Doctrine\ORM\EntityManagerInterface;
-use Person;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
