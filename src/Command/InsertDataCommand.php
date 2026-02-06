@@ -21,14 +21,16 @@ use Faker\Factory;
 class InsertDataCommand extends Command
 {
     private EntityManagerInterface $em;
-    
+
     public function __construct(EntityManagerInterface $em)
     {
         parent::__construct();
         $this->em = $em;
     }
 
-    protected function configure(): void {}
+    protected function configure(): void
+    {
+    }
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
